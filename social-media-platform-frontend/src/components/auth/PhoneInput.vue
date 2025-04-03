@@ -75,10 +75,11 @@ const emitUpdate = () => {
   .country-code {
     width: 100px;
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 8px 0 0 8px;
     border-right: none;
-    background-color: #f9f9f9;
+    background-color: #333;
+    color: white;
   }
 
   .form-input {

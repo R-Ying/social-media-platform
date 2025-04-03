@@ -235,14 +235,14 @@ const handleLogin = () => {
   margin-bottom: 20px;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #ddd;
+  border: 1px solid #444;
 }
 
 .login-type-option {
   flex: 1;
   text-align: center;
   padding: 12px;
-  background-color: #f5f5f5;
+  background-color: #333;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 
