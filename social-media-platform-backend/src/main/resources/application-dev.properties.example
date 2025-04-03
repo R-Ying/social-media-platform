@@ -1,0 +1,24 @@
+# 開發環境數據庫連接設定
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=YOUR_DATABASE_NAME;encrypt=false
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+# 開發環境 JPA 設定
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.properties.hibernate.format_sql=true
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+
+# 開發伺服器設定
+server.port=8080
+
+# 開發環境錯誤處理
+server.error.include-message=always
+server.error.include-binding-errors=always
+server.error.include-stacktrace=always
+
+# 開發環境日誌設定
+logging.level.com.yourpackage.socialmediaplatform=DEBUG
+
+# 啟用開發工具
+spring.devtools.restart.enabled=true
